@@ -1,6 +1,6 @@
 # final_project_template
 
-![picture](example.jpeg)
+![picture](example.jfif)
 
 ## Objective
 
