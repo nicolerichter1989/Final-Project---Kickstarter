@@ -2,6 +2,10 @@
 
 ![picture](kickstarter.png)
 
+Kickstarter is a funding platform for creative projects. Everything from film, games, and music to art, design, and technology. Kickstarter is full of ambitious, innovative, and imaginative projects that are brought to life through the direct support of others.
+
+Every project creator sets their project's funding goal and deadline. If people like the project, they can pledge money to make it happen. If the project succeeds in reaching its funding goal, all backers' credit cards are charged when time expires. Funding on Kickstarter is all-or-nothing. If the project falls short of its funding goal, no one is charged.
+
 ## Objective
 
 The goal  is to be able to predict whether or not a project will receive it's goal funds.
