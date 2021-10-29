@@ -1,6 +1,6 @@
-# final_project_template
+# Final Project - KICKSTARTER
 
-![picture](example.jfif)
+![picture](kickstarter.png)
 
 ## Objective
 
