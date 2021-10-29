@@ -4,7 +4,7 @@
 
 ## Objective
 
-add explanation about data etc. 
+The goal  is to be able to predict whether or not a project will receive it's goal funds.
 
 ## Data
 
