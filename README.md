@@ -92,3 +92,7 @@ The dataframe consits of xxx rows × 47 columns. Here are some of the most impor
 - [statsmodels](https://www.statsmodels.org/stable/index.html)
 - [scipy](https://www.scipy.org/)
 - [sklearn](https://scikit-learn.org/stable/)
+
+### Libraries use for NLP
+- [textblob] https://textblob.readthedocs.io/en/dev/
+- [yake] https://pypi.org/project/yake/
