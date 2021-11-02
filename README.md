@@ -90,5 +90,5 @@ The dataframe consits of xxx rows × 47 columns. Here are some of the most impor
 - [sklearn](https://scikit-learn.org/stable/)
 
 ### Libraries use for NLP
-- [textblob] (https://textblob.readthedocs.io/en/dev/)
-- [yake] (https://pypi.org/project/yake/)
+- [textblob](https://textblob.readthedocs.io/en/dev/)
+- [yake](https://pypi.org/project/yake/)
