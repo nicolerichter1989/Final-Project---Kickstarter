@@ -24,20 +24,16 @@ The dataframe consits of xxx rows × 47 columns. Here are some of the most impor
 
 | Column name | Description |
 | ----------- | ----------- |
-| backers_count | a |
-| blurb | b |
-| categoryId | c |
-| categoryName | d |
-| categroySlug | e |
-| converted_pledged_amount | e |
-| country | e |
-| country_displayable_name | e |
-| created_at | e |
-| created_at_formatted | e |
-| creatorAvatar | e |
-| creatorId | e |
-| creatorName | e |
-| creatorUrl | e |
+| backers_count | count of people backing the project |
+| blurb | short description of the project |
+| categoryId | categoryId |
+| categoryName | name of category |
+| categroySlug | name of subcategory |
+| converted_pledged_amount | amount of money pledged |
+| country | country |
+| country_displayable_name | country full name |
+| created_at | timestamp of when the project was created |
+| created_at_formatted | formatted created |
 | currency | e |
 | currency_symbol | e |
 | currency_trailing_code | e |
@@ -46,10 +42,10 @@ The dataframe consits of xxx rows × 47 columns. Here are some of the most impor
 | description | e |
 | disable_communication | e |
 | fx_rate | e |
-| goal | e |
-| id | e |
+| goal | goal amount |
+| id | project id |
 | is_starrable | e |
-| launched_at | e |
+| launched_at | timestamp of when the project was launched |
 | launched_at_formatted | e |
 | link | e |
 | locationId | e |
@@ -61,7 +57,7 @@ The dataframe consits of xxx rows × 47 columns. Here are some of the most impor
 | slug | e |
 | spotlight | e |
 | staff_pick | e |
-| state | e |
+| state | state of project either live or successful |
 | state_changed_at | e |
 | static_usd_rate | e |
 | title | e |
