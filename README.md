@@ -92,3 +92,5 @@ The dataframe consits of xxx rows × 47 columns. Here are some of the most impor
 ### Libraries use for NLP
 - [textblob](https://textblob.readthedocs.io/en/dev/)
 - [yake](https://pypi.org/project/yake/)
+- [langid](https://pypi.org/project/langid/1.1.2dev/)
+- [rake-nltk](https://pypi.org/project/rake-nltk/)
