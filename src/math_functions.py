@@ -1,8 +1,12 @@
+## add libraries
 
+import os
+import pandas as pd
+import datetime
+import time
+
+## functions
 def create_dataframe():
-
-    import os
-    import pandas as pd
 
     '''this function takes all files in a data folder from the current directory and creates a dataframe from them'''
 
@@ -17,10 +21,10 @@ def create_dataframe():
         df = df.append(data)
     
     return df
-
-
-
-def drop_and_compare_duplicates():
+#
+#
+#
+def drop_and_compare_duplicates(df):
 
     '''this function drops all duplicated rows and compared before and after'''
 
@@ -30,10 +34,10 @@ def drop_and_compare_duplicates():
 
     after_dropping_duplicates = df.shape
 
-    retrun before_dropping_duplicates - after_dropping_duplicates, 'rows have been dropped!'
-
-
-
+    return print(before_dropping_duplicates[0] - after_dropping_duplicates[0], 'rows have been dropped!')
+#
+#
+#
 def get_data_from_timestamp(column, df):
     
     '''this function takes a timestamp and creates 3 new columns for date,time,weekday out of it'''  
@@ -52,24 +56,12 @@ def get_data_from_timestamp(column, df):
     df[f'{column}' + '_weekday'] = weekday
     
     return df
+#
+#
+#
+# def get_category_data(column, df):
 
 
-def add_language_column(column, df):
-
-    '''this function returns a column identifying the language of the input column''' 
-
-    language = []   
-
-    for i in df[f'{column}']:
-        if isinstance(i, float):
-            language.append(0)
-        else:
-            a = langid.classify(i)
-            language.append(a[0])
-
-    df[f'{column}' + '_language'] = language
-
-    return df
 
 
 
