@@ -4,8 +4,10 @@ import os
 import pandas as pd
 import datetime
 import time
+import ast
 
 ## functions
+
 def create_dataframe():
 
     '''this function takes all files in a data folder from the current directory and creates a dataframe from them'''
@@ -38,6 +40,10 @@ def drop_and_compare_duplicates(df):
 #
 #
 #
+# def drop_and_compare_duplicates_id(df): TODO
+#
+#
+#
 def get_data_from_timestamp(column, df):
     
     '''this function takes a timestamp and creates 3 new columns for date,time,weekday out of it'''  
@@ -59,23 +65,30 @@ def get_data_from_timestamp(column, df):
 #
 #
 #
-# def get_category_data(column, df):
+def get_category_data(column, df):
 
+    '''this function takes a timestamp and creates 3 new columns for date,time,weekday out of it'''  
 
+    name = []
+    analytics_name = []
+    slug = []
+    parent_name = []
 
+    for i in df[f'{column}']:
 
+        dictionary = ast.literal_eval(i)
+        
+        name.append(dictionary.get('name'))
+        analytics_name.append(dictionary.get('analytics_name'))
+        slug.append(dictionary.get('slug'))
+        parent_name.append(dictionary.get('parent_name'))
 
+    df[f'{column}' + '_name'] = name
+    df[f'{column}' + '_analytics_name'] = analytics_name
+    df[f'{column}' + '_slug'] = slug
+    df[f'{column}' + '_parent_name'] = parent_name
 
- 
-
-
-
-
-
-
-
-
-
-
-
-
+    return df
+#
+#
+#
